@@ -27,5 +27,7 @@ Route::get('/task/complete/{id}', [TaskController::class, 'complete'])->name('ta
 
 Route::get('/pending/tasks',[TaskController::class, 'pendingTasks'])->name('pendingTasks');
 
+Route::get('/pending/tasks',[TaskController::class, 'pendingTasks'])->name('pendingTasks');
+
 
 
