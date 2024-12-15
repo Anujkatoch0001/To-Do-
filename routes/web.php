@@ -29,5 +29,8 @@ Route::get('/pending/tasks',[TaskController::class, 'pendingTasks'])->name('pend
 
 Route::get('/pending/tasks',[TaskController::class, 'pendingTasks'])->name('pendingTasks');
 
+Route::delete('/delete-task/{id}',[TaskController::class, 'deleteTask'])->name('task.delete');
+
+
 
 
